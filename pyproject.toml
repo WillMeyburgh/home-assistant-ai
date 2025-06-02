@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "home-assistant-ai"
+version = "0.1.0"
+description = ""
+authors = ["Will Meyburgh <annekinmeyburgh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+homeassistant-api = "^5.0.0"
+python-dotenv = "^1.1.0"
+google-genai = "^1.18.0"
+google = "^3.0.0"
+speechrecognition = "^3.14.3"
+pyaudio = "^0.2.14"
+yapper-tts = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
